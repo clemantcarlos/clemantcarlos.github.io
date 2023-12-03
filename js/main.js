@@ -1,6 +1,5 @@
-import { generateProjects } from "./projects"
+import { generateProjects } from "./projects.js"
 
 $(document).ready(()=>{
-  console.log('a');
   generateProjects()
 })
