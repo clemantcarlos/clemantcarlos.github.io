@@ -30,6 +30,17 @@ $gradient-radial: radial-gradient(#780000ff, #c1121fff, #fdf0d5ff, #003049ff, #6
 .fa-square-github{
     color: black;
 }
+.title{
+  font-size: 2em;
+  color: $fire-brick;
+  background-color: transparent;
+}
+.px-1{
+  padding: 0 30px;
+}
+.p-header{
+  padding: 5em 30px;
+}
 
 // SCSS Setup
 *{
@@ -46,12 +57,6 @@ $gradient-radial: radial-gradient(#780000ff, #c1121fff, #fdf0d5ff, #003049ff, #6
 }
 // About - Contact
 header{
-    padding: 5em 30px;
-    h1{
-        font-size: 2em;
-        color: $fire-brick;
-        background-color: transparent;
-    }
     span{
         font-size: 2.5em;
         font-weight: 700;
@@ -72,21 +77,22 @@ header{
 }
 // Education
 #education_section{
-    padding: 0 30px;
-    h2{
-        font-size: 1.5em;
-        margin: 1em 0;
-    }
     article{
-        padding: 1em 0;
+        padding: .5em 0;
         div{
             display: flex;
             justify-content: space-between;
+            color: $prussian-blue;
             *{
                 margin: 0;
             }
         }
     }
+}
+// Projects
+
+#projects_section{
+
 }
 
 //Hovers
